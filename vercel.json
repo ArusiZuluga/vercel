@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {"source": "/", "destination": "https://nutrimed.ng"},
+      {"source": "/:match*", "destination": "https://nutrimed.ng/:match*"},
+      {"source": "/mealplanner", "destination": "https://nutrimed.ng/mealplanner"},
+      {"source": "/mealplanner:match*", "destination": "https://nutrimed.ng/mealplanner"}
+    ]
+  }
